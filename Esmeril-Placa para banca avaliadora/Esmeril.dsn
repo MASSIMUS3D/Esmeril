@@ -43,10 +43,10 @@
       (place J2 149860 -91440 front 270 (PN "Display OLED 0,96"))
     )
     (component Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight
-      (place SW6 176530 -132080 front 0 (PN MAGNETICO))
-      (place SW5 193040 -121160 front 0 (PN PIR))
-      (place SW4 176530 -120650 front 0 (PN INFRAVERMELHO))
-      (place SW3 193040 -132080 front 0 (PN ACRILICO))
+      (place SW6 199390 -133350 front 0 (PN MAGNETICO))
+      (place SW5 199390 -124460 front 0 (PN PIR))
+      (place SW4 199390 -114300 front 0 (PN INFRAVERMELHO))
+      (place SW3 199390 -105410 front 0 (PN ACRILICO))
     )
     (component "RF_Module:ESP-12E"
       (place U4 185010 -95484 front 0 (PN "ESP-12E"))
@@ -77,7 +77,7 @@
       (place J9 107950 -129540 front 0 (PN BUZER))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place J4 201930 -69850 front 0 (PN "MICRO SERVO 9G"))
+      (place J4 142240 -133350 front 270 (PN "MICRO SERVO 9G"))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
       (place J3 193040 -66040 front 270 (PN MFRC522))
@@ -137,29 +137,29 @@
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight
-      (outline (path signal 100  -1000 350  7000 350))
-      (outline (path signal 100  7000 350  7000 -3650))
-      (outline (path signal 100  7000 -3650  -2000 -3650))
-      (outline (path signal 100  -2000 -3650  -2000 -650))
-      (outline (path signal 120  -900 450  -2100 450))
-      (outline (path signal 120  -2100 450  -2100 -3750))
-      (outline (path signal 120  -2100 -3750  -900 -3750))
-      (outline (path signal 120  5900 450  7100 450))
-      (outline (path signal 120  7100 450  7100 -3750))
-      (outline (path signal 120  7100 -3750  5900 -3750))
-      (outline (path signal 120  -1200 750  -2400 750))
-      (outline (path signal 120  -2400 750  -2400 -450))
-      (outline (path signal 50  -2250 950  7250 950))
-      (outline (path signal 50  7250 950  7250 -4250))
-      (outline (path signal 50  7250 -4250  -2250 -4250))
-      (outline (path signal 50  -2250 -4250  -2250 950))
       (outline (path signal 100  -1000 350  -2000 -650))
-      (pin Round[A]Pad_1400_um 6 5000 -3300)
-      (pin Round[A]Pad_1400_um 5 2500 -3300)
-      (pin Round[A]Pad_1400_um 4 0 -3300)
-      (pin Round[A]Pad_1400_um 3 5000 0)
-      (pin Round[A]Pad_1400_um 2 2500 0)
+      (outline (path signal 50  -2250 -4250  -2250 950))
+      (outline (path signal 50  7250 -4250  -2250 -4250))
+      (outline (path signal 50  7250 950  7250 -4250))
+      (outline (path signal 50  -2250 950  7250 950))
+      (outline (path signal 120  -2400 750  -2400 -450))
+      (outline (path signal 120  -1200 750  -2400 750))
+      (outline (path signal 120  7100 -3750  5900 -3750))
+      (outline (path signal 120  7100 450  7100 -3750))
+      (outline (path signal 120  5900 450  7100 450))
+      (outline (path signal 120  -2100 -3750  -900 -3750))
+      (outline (path signal 120  -2100 450  -2100 -3750))
+      (outline (path signal 120  -900 450  -2100 450))
+      (outline (path signal 100  -2000 -3650  -2000 -650))
+      (outline (path signal 100  7000 -3650  -2000 -3650))
+      (outline (path signal 100  7000 350  7000 -3650))
+      (outline (path signal 100  -1000 350  7000 350))
       (pin Rect[A]Pad_1400x1400_um 1 0 0)
+      (pin Round[A]Pad_1400_um 2 2500 0)
+      (pin Round[A]Pad_1400_um 3 5000 0)
+      (pin Round[A]Pad_1400_um 4 0 -3300)
+      (pin Round[A]Pad_1400_um 5 2500 -3300)
+      (pin Round[A]Pad_1400_um 6 5000 -3300)
     )
     (image "RF_Module:ESP-12E"
       (outline (path signal 120  5560 4800  8120 7360))
@@ -734,8 +734,8 @@
   )
   (network
     (net GND
-      (pins J2-1 SW6-5 SW6-4 SW6-1 SW5-5 SW5-4 SW5-1 SW4-5 SW4-4 SW4-1 SW3-5 SW3-4
-        SW3-1 U4-15 SW2-1 SW2-1@1 U5-22 U5-8 U3-2 U2-2 U1-2 SW1-1 SW1-1@1 J9-1 J4-1
+      (pins J2-1 SW6-1 SW6-4 SW6-5 SW5-1 SW5-4 SW5-5 SW4-1 SW4-4 SW4-5 SW3-1 SW3-4
+        SW3-5 U4-15 SW2-1 SW2-1@1 U5-22 U5-8 U3-2 U2-2 U1-2 SW1-1 SW1-1@1 J9-1 J4-1
         J3-3 J1-1 C5-2 C4-2 C3-2 C2-2 C1-2)
     )
     (net 12V

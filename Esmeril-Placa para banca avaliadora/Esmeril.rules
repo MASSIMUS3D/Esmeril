@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 7986)
+    (start_pass_no 23)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -69,7 +69,7 @@
     "EN-ESP" "Net-(U3-Pad3)" "Net-(U3-Pad5)" CONTATOR "Net-(U4-Pad22)" "Net-(U4-Pad21)" "Net-(U4-Pad20)" CARTAO
     "Net-(U4-Pad18)" "Net-(U4-Pad17)" "Net-(U4-Pad14)" "Net-(U4-Pad13)" "Net-(U4-Pad12)" "Net-(U4-Pad11)" "Net-(U4-Pad10)" "Net-(U4-Pad9)"
     "Net-(U4-Pad4)" "Net-(U4-Pad2)" "Net-(U5-Pad14)" "Net-(U5-Pad26)" "Net-(U5-Pad25)" "Net-(U5-Pad24)" "Net-(U5-Pad23)" "Net-(U5-Pad18)"
-    "Net-(U5-Pad17)" "Net-(U5-Pad3)" "Net-(U5-Pad16)" "Net-(U5-Pad2)"
+    "Net-(U5-Pad17)" "Net-(U5-Pad3)" "Net-(U5-Pad16)" "Net-(U5-Pad2)" "Net-(SW3-Pad6)" "Net-(SW4-Pad6)" "Net-(SW5-Pad6)" "Net-(SW6-Pad6)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
